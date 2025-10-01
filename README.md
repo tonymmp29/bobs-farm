@@ -30,6 +30,13 @@ That's it! The application will be available at:
 - **Website**: http://localhost
 - **API**: http://localhost:3000
 
+## 🌐 Live Demo
+
+The application is automatically deployed to GitHub Pages through CI/CD:
+
+- **Live Site**: `https://tonymmp29.github.io/bobs-farm/`
+
+
 ## 🔧 Running Projects Separately
 
 If you prefer to run the frontend and backend separately:
@@ -63,6 +70,49 @@ The frontend will be available at <http://localhost:5173>
 - 🎨 Responsive farm-themed design
 - 🔄 Real-time API integration
 - 🐳 Easy Docker deployment
+- 🚀 Automated CI/CD with GitHub Actions
+- 📄 GitHub Pages deployment
+
+## 🚀 CI/CD Pipeline
+
+This project includes automated CI/CD with GitHub Actions that:
+
+### On Every Push & Pull Request
+
+- Installs dependencies for both frontend and backend
+- Runs backend tests with Mocha
+- Performs frontend linting with ESLint
+- Runs frontend tests
+
+### On Main Branch Push
+
+- Builds the React frontend for production
+- Deploys automatically to GitHub Pages
+
+### Setting Up GitHub Pages
+
+1. Go to your repository settings
+2. Navigate to "Pages" in the sidebar
+3. Under "Source", select "GitHub Actions"
+4. Push to main branch to trigger the first deployment
+
+The workflow file is located at `.github/workflows/deploy.yml`
+
+## 🧪 Running Tests
+
+### Backend Tests
+
+```bash
+cd backend
+npm test
+```
+
+### Frontend Linting
+
+```bash
+cd frontend
+npm run lint
+```
 
 ---
 
