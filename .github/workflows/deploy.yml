@@ -77,7 +77,7 @@ jobs:
       working-directory: ./frontend
 
     - name: Build frontend
-      run: npm run build
+      run: npm run build -- --config vite.config.github.js
       working-directory: ./frontend
 
     - name: Setup Pages
