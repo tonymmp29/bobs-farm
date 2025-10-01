@@ -15,7 +15,7 @@ Bob's Corn Farm is a web application where customers can:
 
 - **Frontend**: React + Vite
 - **Backend**: Node.js + Express
-- **Containerization**: Docker + Docker Compose
+- **Containerization**: Docker
 
 ## 🚀 How to Run
 
@@ -91,12 +91,6 @@ This project includes automated CI/CD with GitHub Actions that:
 - Builds the React frontend for production
 - Deploys automatically to GitHub Pages
 
-### Setting Up GitHub Pages
-
-1. Go to your repository settings
-2. Navigate to "Pages" in the sidebar
-3. Under "Source", select "GitHub Actions"
-4. Push to main branch to trigger the first deployment
 
 The workflow file is located at `.github/workflows/deploy.yml`
 
