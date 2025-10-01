@@ -32,9 +32,11 @@ That's it! The application will be available at:
 
 ## 🌐 Live Demo
 
-The application is automatically deployed to GitHub Pages through CI/CD:
+The frontend application is automatically deployed to GitHub Pages through CI/CD:
 
 - **Live Site**: `https://tonymmp29.github.io/bobs-farm/`
+- **Note**: GitHub Pages only hosts static files, so the purchase button will not work
+- **Full Experience**: Use `docker compose up` locally to run both frontend and backend
 
 
 ## 🔧 Running Projects Separately
